@@ -1,0 +1,50 @@
+* {
+  margin: auto;
+  padding: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  background: #fd75f6b9;
+  background-image: url("../img/fondo_love.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+h1 {
+  color: #ffffff;
+  font-size: 200%;
+  text-shadow: 5px 5px 10px #000000, 5px 5px 10px #ff0000;
+  text-align: center;
+  margin-top: -30%;
+}
+.button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ff1c1c;
+  color: #ffffff;
+  font-size: 150%;
+  background-image: -webkit-linear-gradient(top, #ff1c1c, #b32642);
+  background-image: -moz-linear-gradient(top, #ff1c1c, #b32642);
+  background-image: -ms-linear-gradient(top, #ff1c1c, #b32642);
+  background-image: -o-linear-gradient(top, #ff1c1c, #b32642);
+  background-image: linear-gradient(to bottom, #ff1c1c, #b32642);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  text-shadow: 1px 1px 3px #666666;
+  padding: 10px 20px 10px 20px;
+  border: dotted #ff0000 2px;
+  text-decoration: none;
+}
+#si {
+  left: 20%;
+  transform: translateY(-50%) translateX(-20%);
+}
+#no {
+  left: 80%;
+  transform: translateY(-50%) translateX(-80%);
+}
