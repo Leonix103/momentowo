@@ -1,7 +1,7 @@
 let si = document.getElementById("si");
 
 si.addEventListener("click", function (e) {
-  alert("Ya lo sabia ~.~ uu");
+  alert("No jodas puto");
 });
 
 let no = document.getElementById("no");
