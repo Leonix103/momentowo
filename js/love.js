@@ -1,7 +1,7 @@
 let si = document.getElementById("si");
 
 si.addEventListener("click", function (e) {
-  alert("No jodas puto");
+  alert("si lees esto, deja de ser de river posho >:l");
 });
 
 let no = document.getElementById("no");
