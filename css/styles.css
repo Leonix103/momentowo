@@ -1,8 +1,15 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: aliceblue;
+  background-color: #222222;
   text-decoration: none;
+  }
+}
+.contenedor {
+  color: azure;
 }
 .title {
   text-align: center;
+}
+.proyectos {
+  color: lightcoral;
 }
