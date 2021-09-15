@@ -1,7 +1,7 @@
 let si = document.getElementById("si");
 
 si.addEventListener("click", function (e) {
-  alert("si lees esto, deja de ser de river posho >:l");
+  alert("Ya lo sabia uu");
 });
 
 let no = document.getElementById("no");
