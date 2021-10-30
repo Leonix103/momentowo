@@ -1,7 +1,12 @@
 let si = document.getElementById("si");
 
+function redirection() {
+  document.location.href =
+    "./../Ver felicitacion de cumpleaños personalizada.html";
+}
+
 si.addEventListener("click", function (e) {
-  alert("Jeje, obvio que no");
+  alert("Jeje, obvio que no bb");
 });
 
 let no = document.getElementById("no");
