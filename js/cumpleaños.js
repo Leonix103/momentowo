@@ -6,7 +6,7 @@ function redirection() {
 }
 
 si.addEventListener("click", function (e) {
-  alert("Jeje, obvio que no bb");
+  alert("Jeje, obvio que no");
 });
 
 let no = document.getElementById("no");
