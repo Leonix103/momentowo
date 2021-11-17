@@ -1,6 +1,9 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-decoration: none;
+}
+.contenedor {
+  color: azure;
   background: #8360c3;
   background: -webkit-linear-gradient(
     to right,
@@ -9,12 +12,9 @@
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2ebf91, #8360c3);
 }
-.contenedor {
-  color: azure;
-}
 .title {
   text-align: center;
 }
 .proyectos {
-  color: lightcoral;
+  color: rgb(0, 0, 0);
 }

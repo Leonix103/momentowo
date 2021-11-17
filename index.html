@@ -6,22 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script id="chatBroEmbedCode">
+      /* Chatbro Widget Embed Code Start */ function ChatbroLoader(
+        chats,
+        async
+      ) {
+        async = !1 !== async;
+        var params = {
+            embedChatsParameters: chats instanceof Array ? chats : [chats],
+            lang: navigator.language || navigator.userLanguage,
+            needLoadCode: "undefined" == typeof Chatbro,
+            embedParamsVersion: localStorage.embedParamsVersion,
+            chatbroScriptVersion: localStorage.chatbroScriptVersion,
+          },
+          xhr = new XMLHttpRequest();
+        (xhr.withCredentials = !0),
+          (xhr.onload = function () {
+            eval(xhr.responseText);
+          }),
+          (xhr.onerror = function () {
+            console.error("Chatbro loading error");
+          }),
+          xhr.open(
+            "GET",
+            "//www.chatbro.com/embed.js?" +
+              btoa(unescape(encodeURIComponent(JSON.stringify(params)))),
+            async
+          ),
+          xhr.send();
+      }
+      /* Chatbro Widget Embed Code End */ ChatbroLoader({
+        encodedChatId: "08KJ9",
+      });
+    </script>
   </head>
-
-  <style type="text/css">
-    a {
-      color: #ff1493;
-    }
-    a:visited {
-      color: #ff34b3;
-    }
-    a:active {
-      color: #ffb6c1;
-    }
-    a:hover {
-      color: #ff1493;
-    }
-  </style>
 
   <body>
     <div class="contenedor">
